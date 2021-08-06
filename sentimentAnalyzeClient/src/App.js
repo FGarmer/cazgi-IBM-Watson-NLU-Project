@@ -74,6 +74,7 @@ class App extends React.Component {
 
   render() {
     return (  
+    <title>Sentiment Analyzer</title>
       <div className="App">
       <button className="btn btn-info" onClick={this.renderTextArea}>Text</button>
         <button className="btn btn-dark"  onClick={this.renderTextBox}>URL</button>
